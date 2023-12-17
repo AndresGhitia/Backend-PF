@@ -1,0 +1,41 @@
+{
+  "name": "gumo-efectos",
+  "version": "1.0.0",
+  "description": "Entrega Proyecto final coderhouse backend",
+  "main": "server.js",
+  "engines": {
+    "node": "16.14.0"
+  },
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ghitia",
+  "license": "ISC",
+  "dependencies": {
+    "artillery": "^1.7.4",
+    "bcrypt": "^5.0.1",
+    "cluster": "^0.7.7",
+    "connect-mongo": "^4.6.0",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "firebase-admin": "^11.0.0",
+    "log4js": "^6.6.1",
+    "minimist": "^1.2.6",
+    "mongodb-connection-string-url": "^3.0.0",
+    "mongoose": "^6.5.4",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.7.8",
+    "nodemon": "^3.0.2",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "pm2": "^2.10.4",
+    "session": "^0.1.0",
+    "socket.io": "^4.5.1",
+    "twilio": "^4.19.3"
+  }
+}
