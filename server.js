@@ -114,5 +114,5 @@ const args = yargs
 
 httpServer.listen(args.port, err => {
     if (err) throw err
-    console.log(`>>>>> 🪄 Servidor escuchando en el puerto ${args.port}`)
+    console.log(`>>>>>Servidor escuchando en el puerto ${args.port}`)
 })

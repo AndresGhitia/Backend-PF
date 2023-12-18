@@ -8,12 +8,7 @@ const isValidPassword = (userPassword, password) => {
     return bCrypt.compareSync(password, userPassword);
 };
 
-// const isAdmin = (user) => {
-//     return user && user.role === 'admin';
-// }
-
 module.exports = {
     createHash,
     isValidPassword,
-    // isAdmin
 }
